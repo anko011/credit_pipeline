@@ -1,0 +1,3 @@
+class DOCXPrinter:
+    def print(self, template, data):
+        ...
