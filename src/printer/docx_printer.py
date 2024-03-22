@@ -1,3 +1,9 @@
+from docxtpl import DocxTemplate
+
+
 class DOCXPrinter:
-    def print(self, template, data):
-        ...
+    @staticmethod
+    def print(template, data, filepath):
+        doc = DocxTemplate(template)
+        doc.render(data)
+        doc.save(filepath)
