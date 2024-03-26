@@ -4,6 +4,7 @@ from src.scoring import ScoringModel
 from src.views import ApplicationView
 
 
+# 2 - Pure
 def init_project():
     printer = DOCXPrinter()
     model = ScoringModel()
